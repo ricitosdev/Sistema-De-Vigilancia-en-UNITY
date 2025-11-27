@@ -1,8 +1,8 @@
-🛡️ Sistema de Vigilancia en Unity 3D
+# 🛡️ Sistema de Vigilancia en Unity 3D
 
 Este proyecto implementa un sistema de vigilancia sencillo y funcional en Unity 3D. Permite colocar múltiples cámaras dentro de una escena y mostrar su señal en monitores o pantallas en tiempo real, simulando un sistema de CCTV.
 
-📌 Características principales
+## 📌 Características principales
 
 🎥 Múltiples cámaras de vigilancia configurables dentro de la escena.
 
@@ -14,15 +14,20 @@ Este proyecto implementa un sistema de vigilancia sencillo y funcional en Unity 
 
 🏗️ Código claro y organizado para aprender o usar como base en tus propios proyectos.
 
-📁 Estructura del proyecto
+## 📁 Estructura del proyecto
 /Assets
- ├── Scripts
- │    ├── Player_Cntrl.cs       // Control básico de movimiento del jugador
- │    └── SecutiryCamera_cntrl.cs      // Sistemta de control de vigilancia
- └── Scenes/
-      └── SampleScene.unity           // Escena lista para probar
 
-🚀 Cómo usarlo
+  -- Scripts
+    <br>
+    Player_Cntrl.cs          // Control básico de movimiento del jugador
+    <br>
+    SecutiryCamera_cntrl.cs  // Sistemta de control de vigilancia
+    
+  -- Scenes
+  <br>
+    SampleScene.unity           // Escena lista para probar
+
+## 🚀 Cómo usarlo
 
 Clona o descarga este repositorio.
 
@@ -40,7 +45,7 @@ Asigna una nueva RenderTexture.
 
 Enlaza esta textura al material de la pantalla correspondiente.
 
-🧩 Personalización
+## 🧩 Personalización
 
 Puedes ampliar este sistema fácilmente para:
 
@@ -54,7 +59,7 @@ Grabar o tomar capturas desde cámaras internas.
 
 Si quieres, puedo ayudarte a implementar cualquiera de estas mejoras.
 
-📜 Requisitos
+## 📜 Requisitos
 
 Unity 2021.3 o superior (recomendado).
 
@@ -66,7 +71,7 @@ Cameras
 
 Materials & RenderTexture
 
-🧑‍💻 Autor
+## 🧑‍💻 Autor
 
 Proyecto creado por RicitosDev.
 Puedes usarlo libremente para aprendizaje o como base en tus propios proyectos.
